@@ -1,0 +1,19 @@
+🎬 Videomanus – Modul 1: Hva er AI og ChatGPT
+
+🟦 Introduksjon
+"Hei og velkommen til første modul! I dag skal vi se på hva kunstig intelligens og ChatGPT egentlig er, og hvordan det fungerer – forklart på en enkel måte."
+
+🧠 Hva du skal forklare:
+- Hva AI er og hva det betyr i praksis
+- Eksempler på AI i hverdagen (Netflix, Siri, ChatGPT)
+- Hva ChatGPT er og hvordan det fungerer
+- At modellen gjetter ord basert på sammenheng (språkmodell)
+
+💬 Tips:
+- Bruk en enkel forklaring: "Det er som en superavansert tekstrobot"
+- Tegn gjerne på skjermen eller bruk lysbilder
+
+🚫 Ikke demo enda – bare teori og kontekst
+
+📌 Avslutning:
+"I neste modul viser jeg deg hvordan du faktisk logger inn og prøver ChatGPT selv, steg for steg."

@@ -1,0 +1,16 @@
+🎬 Videomanus – Modul 4: Andre nyttige AI-verktøy
+
+🟦 Introduksjon
+"I denne modulen får du en smakebit på flere AI-verktøy du kan prøve – som lager bilder, tekster og planleggingsverktøy."
+
+🧠 Hva du kan demonstrere:
+- Canva AI: Magic Write og Text-to-Image
+- Notion AI: Oppsummering eller idébank
+- (Valgfritt) Microsoft Copilot i Word
+
+💡 Tips:
+- Gå inn på verktøyene og vis hvordan du bruker det
+- Du kan lage én ting fra start til slutt (f.eks. et bilde i Canva AI)
+
+📌 Avslutning:
+"Nå har du sett hvor mye spennende du kan gjøre med AI! I siste modul skal vi oppsummere og se hvordan du kan ta dette videre."

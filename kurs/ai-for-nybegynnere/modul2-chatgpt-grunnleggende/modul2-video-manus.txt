@@ -1,0 +1,17 @@
+🎬 Videomanus – Modul 2: Kom i gang med ChatGPT
+
+🟦 Introduksjon
+"Hei! Nå skal vi se på hvordan du kommer i gang med ChatGPT – hvordan du lager bruker, logger inn, og sender dine første spørsmål."
+
+🧠 Hva du skal vise:
+- Gå til https://chat.openai.com
+- Registrere deg (e-post eller Google)
+- Forklare grensesnittet (tekstfelt, svar, ny chat)
+- Demo: Skriv inn en enkel prompt – f.eks. "Hva kan jeg spise til middag i dag?"
+
+💡 Tips:
+- Zoom inn på skjermen der det skjer
+- Snakk rolig og forklar hvorfor det du gjør er nyttig
+
+📌 Avslutning:
+"Bra! Nå vet du hvordan du bruker ChatGPT. I neste modul viser jeg hvordan du kan bruke det i hverdagen."

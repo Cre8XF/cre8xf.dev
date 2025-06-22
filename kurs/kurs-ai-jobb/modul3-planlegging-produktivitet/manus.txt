@@ -1,0 +1,3 @@
+Modul 3 – AI for planlegging og produktivitet
+- Bruk AI til ukeplan, oppfølging og møter
+- Notion AI, Copilot, Google-verktøy
