@@ -67,3 +67,9 @@ img {
   margin-top: 1rem;
   border-radius: 8px;
 }
+.hero-image {
+  max-height: 280px;
+  object-fit: fill;
+  width: 100%;
+  border-radius: 10px;
+}

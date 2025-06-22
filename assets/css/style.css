@@ -70,10 +70,12 @@ main {
 
 section {
   margin-bottom: 2.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
 }
 
 section h3 {
-  font-size: 1.5rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid var(--accent);
   padding-bottom: 0.3rem;
@@ -165,7 +167,8 @@ a:hover {
   border: 1px solid #333;
   border-radius: 10px;
   padding: 1.5rem;
-  width: 300px;
+  flex: 1 1 300px;
+  max-width: 360px;
   text-align: center;
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -199,10 +202,9 @@ a:hover {
 
 .course-image {
   width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 1rem;
+  height: auto;
+  max-height: 160px;
+  object-fit: contain;
 }
 
 /* Logo i header */
@@ -228,6 +230,45 @@ header.hero {
 .logo {
   max-width: 140px;
   margin-bottom: 1rem;
+}
+.support-section {
+  text-align: center;
+  margin: 4em auto;
+  padding: 2em;
+  background-color: #1b1b1b;
+  border-radius: 12px;
+  max-width: 900px;
+}
+.support-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.support-box {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 1.5em;
+  width: 240px;
+  text-align: center;
+}
+.contact-section {
+  text-align: center;
+  padding: 3em 1em;
+  background-color: #1a1a1a;
+  color: #fff;
+  margin-top: 4em;
+}
+
+.contact-section a {
+  color: #f7d038;
+  text-decoration: underline;
+}
+.centered {
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* =============== RESPONSIVE =============== */
