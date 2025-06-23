@@ -67,3 +67,15 @@ img {
   margin-top: 1rem;
   border-radius: 8px;
 }
+.hero-image {
+  max-height: 280px;
+  object-fit: fill;
+  width: 100%;
+  border-radius: 10px;
+}
+.section ul li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  border-bottom: 1px dashed #333;
+  padding-bottom: 0.5rem;
+}

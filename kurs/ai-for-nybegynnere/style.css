@@ -68,8 +68,49 @@ img {
   border-radius: 8px;
 }
 .hero-image {
+  width: 100%;
   max-height: 280px;
+  height: auto;
+  object-fit: contain; /* Sørger for at hele bildet vises uten å bli beskåret */
+  border-radius: 10px;
+  display: block;
+  margin: 1rem auto 0 auto; /* Litt luft over bildet + sentrering */
+}
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap; /* Stabler på små skjermer */
+  margin: 2rem 0;
+}
+
+.hero-img {
   object-fit: fill;
   width: 100%;
+  height: auto;
+  max-width: 400px; /* Maks bredde for bildet */
+  max-height: 300px; /* Maks høyde for bildet */
   border-radius: 10px;
+}
+
+.hero-text {
+  max-width: 500px;
+  color: #fede50;
+}
+
+.hero-text h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .hero-flex {
+    flex-direction: column;
+    text-align: center;
+  }
 }
