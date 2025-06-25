@@ -1,5 +1,5 @@
 body {
-  background: #111;
+  background: #383636;
   color: #fede50;
   font-family: system-ui, sans-serif;
   max-width: 900px;
@@ -13,7 +13,7 @@ h2 {
 }
 
 .section {
-  background: #1b1b1b;
+  background: #706e6e;
   border: 1px solid #333;
   border-radius: 10px;
   padding: 1.5rem;
