@@ -47,7 +47,6 @@ header {
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 2rem;
-  height: 300px;
 }
 
 .hero-content {
@@ -57,7 +56,7 @@ header {
 
 .logo {
   max-width: 140px;
-  margin-bottom: 1rem;
+  margin-top: 1.5rem; /* ✅ Flytter logoen litt ned */
   filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.25));
 }
 
@@ -288,5 +287,9 @@ a:hover {
   .course-cards {
     flex-direction: column;
     align-items: center;
+  }
+
+  .logo {
+    margin-top: 1.5rem; /* 👈 mobiltilpasning for logoen */
   }
 }
