@@ -288,7 +288,40 @@ a:hover {
 .btn-download:hover {
   background-color: #e6c200;
 }
+/* === Info- og pristekster === */
+.note {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
 
+.note.bottom {
+  margin-top: 1rem;
+}
+
+/* === Pristabell === */
+.pricing-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+.pricing-table th {
+  border-bottom: 1px solid var(--accent);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.pricing-table tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.02);
+}
 /* =============== RESPONSIVE =============== */
 @media (max-width: 600px) {
   body {
@@ -315,5 +348,19 @@ a:hover {
 
   .logo {
     margin-top: 1.5rem; /* 👈 mobiltilpasning for logoen */
+  }
+}
+@media (max-width: 600px) {
+  .pricing-table {
+    font-size: 0.85rem;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    padding: 0.4rem;
+  }
+
+  .note {
+    font-size: 0.85rem;
   }
 }
