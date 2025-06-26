@@ -220,6 +220,30 @@ a:hover {
   max-height: 160px;
   object-fit: contain;
 }
+.note {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.note.bottom {
+  margin-top: 1rem;
+}
+
+.pricing-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.pricing-table th {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--accent);
+}
+
+.pricing-table td {
+  padding: 0.5rem;
+}
 
 /* =============== KONTAKT / FOOTER =============== */
 .contact-section {
