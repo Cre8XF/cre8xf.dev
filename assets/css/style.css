@@ -39,9 +39,26 @@ header {
   margin-bottom: 2rem;
 }
 
-header img {
+.hero {
+  text-align: center;
+  background: linear-gradient(to bottom, #161616, #5e5353);
+  color: #f7d038;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 2rem;
+  height: 300px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 140px;
   margin-bottom: 1rem;
-  max-width: 200px;
+  filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.25));
 }
 
 header h1 {
@@ -61,26 +78,12 @@ header p {
   margin-top: 0.5rem;
   color: var(--subtle-text);
 }
-.hero {
-  background: url(/cre8xf.dev/assets/images/) center center no-repeat;
-  background-size: cover;
-  height: 300px; /* justér etter behov */
-  display: flex;
-  align-items: flex-end; /* flytter tekst under logoen */
-  justify-content: center;
-  padding-bottom: 2rem;
-}
 
-/* =============== MAIN =============== */
-main {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
+/* =============== MAIN CONTENT =============== */
+main,
 section {
-  margin-bottom: 2.5rem;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 2.5rem auto;
   padding: 1rem 1.5rem;
 }
 
@@ -96,7 +99,6 @@ section ul {
   margin-left: 1rem;
 }
 
-/* =============== LISTS & LINKS =============== */
 ul {
   list-style-type: square;
   padding-left: 1.2rem;
@@ -114,36 +116,40 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* =============== SUPPORT / DONASJON =============== */
 .support-section {
   text-align: center;
-  margin: 4rem 0;
-  padding: 2rem;
-  background-color: #222;
+  margin: 4em auto;
+  padding: 2em;
+  background: linear-gradient(to bottom, #161616, #5e5353);
+  border-radius: 12px;
+  max-width: 900px;
   color: #f7d038;
-  border-radius: 1rem;
 }
 
 .support-options {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
-  margin-top: 2rem;
+  gap: 2em;
+  margin-top: 2em;
 }
 
 .support-box {
-  background-color: #333;
-  padding: 1.5rem;
-  border-radius: 0.8rem;
-  width: 250px;
+  background: linear-gradient(to bottom, #161616, #5e5353);
+  border-radius: 10px;
+  padding: 1.5em;
+  width: 240px;
+  text-align: center;
 }
 
 .qr-image {
-  width: 100%;
-  max-width: 200px;
-  margin: 1rem auto;
   display: block;
+  margin: 1rem auto;
   border-radius: 0.5rem;
+  width: 100%;
+  max-width: 150px;
 }
 
 .support-box h3 {
@@ -161,8 +167,8 @@ a:hover {
   font-weight: bold;
   text-decoration: none;
 }
-/* =============== KURS-KORT OG BILDER =============== */
 
+/* =============== KURS-KORT OG BILDER =============== */
 .course-cards {
   display: flex;
   flex-wrap: wrap;
@@ -216,52 +222,7 @@ a:hover {
   object-fit: contain;
 }
 
-/* Logo i header */
-header .logo {
-  max-width: 150px;
-  height: auto;
-  margin: 1rem auto;
-  display: block;
-  filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.25));
-}
-header.hero {
-  text-align: center;
-  background: linear-gradient(to bottom, #161616, #5e5353);
-  color: #f7d038;
-}
-
-.hero-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.logo {
-  max-width: 140px;
-  margin-bottom: 1rem;
-}
-.support-section {
-  text-align: center;
-  margin: 4em auto;
-  padding: 2em;
-  background: linear-gradient(to bottom, #161616, #5e5353);
-  border-radius: 12px;
-  max-width: 900px;
-}
-.support-options {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2em;
-  margin-top: 2em;
-}
-
-.support-box {
-  background: linear-gradient(to bottom, #161616, #5e5353);
-  border-radius: 10px;
-  padding: 1.5em;
-  width: 240px;
-  text-align: center;
-}
+/* =============== KONTAKT / FOOTER =============== */
 .contact-section {
   text-align: center;
   padding: 3em 1em;
@@ -274,25 +235,13 @@ header.hero {
   color: #f7d038;
   text-decoration: underline;
 }
+
 .centered {
   text-align: center;
   margin: 0 auto;
 }
 
-/* =============== RESPONSIVE =============== */
-@media (max-width: 600px) {
-  body {
-    padding: 1rem;
-  }
-
-  header h1 {
-    font-size: 2rem;
-  }
-
-  header h2 {
-    font-size: 1.1rem;
-  }
-}
+/* =============== TEASER OG NEDLASTNING =============== */
 .teaser-wrapper {
   margin-top: 1.5rem;
   padding: 1rem;
@@ -315,4 +264,29 @@ header.hero {
 
 .btn-download:hover {
   background-color: #e6c200;
+}
+
+/* =============== RESPONSIVE =============== */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h2 {
+    font-size: 1.1rem;
+  }
+
+  .support-options {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .course-cards {
+    flex-direction: column;
+    align-items: center;
+  }
 }
