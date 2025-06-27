@@ -439,34 +439,77 @@ a:hover {
 
 .choose-path {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
 
 .option-box {
-  background: var(--dark-card);
+  flex: 1 1 300px;
+  max-width: 400px;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  width: 300px;
-  max-width: 90%;
   text-align: left;
+  min-height: 320px;
 }
 
 .option-box h3 {
   margin-top: 0;
+  font-size: 1.2rem;
 }
 
 .option-box p {
   margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
+/* Matrix-farger */
+.option-box.nettside {
+  background: linear-gradient(to bottom right, #272829, #565f68);
+  color: #fff;
+}
+
+.option-box.ai {
+  background: linear-gradient(to bottom right, #272829, #565f68);
+  color: #fff;
+}
+
+.option-box h3,
+.option-box p {
+  color: #fff;
+}
+
+/* Knapper */
 .option-box .btn {
   display: inline-block;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.75rem 1.4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
+
+.option-box.nettside .btn {
+  background: #00aaff;
+  color: #fff;
+}
+
+.option-box.ai .btn {
+  background: #ff3377;
+  color: #fff;
+}
+
+.option-box .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
 body {
   background: #383636;
   color: #fede50;
