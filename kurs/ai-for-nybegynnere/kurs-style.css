@@ -114,3 +114,50 @@ img {
     text-align: center;
   }
 }
+.support-section {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.support-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.support-box {
+  background: #222;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 260px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.support-box h3 {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.qr-image {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-weight: bold;
+}

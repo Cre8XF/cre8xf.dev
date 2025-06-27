@@ -260,7 +260,38 @@ a:hover {
 .pricing-table td {
   padding: 0.5rem;
 }
+.course-banner {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 1rem auto 2rem auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.hero-img {
+  object-fit: fill;
+  width: 100%;
+  height: auto;
+  max-width: 400px; /* Maks bredde for bildet */
+  max-height: 300px; /* Maks høyde for bildet */
+  border-radius: 10px;
+}
 
+.hero-text {
+  max-width: 500px;
+  color: #fede50;
+}
+
+.hero-text h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
 /* =============== KONTAKT / FOOTER =============== */
 .contact-section {
   text-align: center;
@@ -278,6 +309,31 @@ a:hover {
 .centered {
   text-align: center;
   margin: 0 auto;
+}
+.back-wrapper {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.btn-back {
+  padding: 0.8rem 1.5rem;
+  background: var(--accent);
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--text-color);
+}
+
+.footer a {
+  color: var(--text-color);
+  text-decoration: underline;
 }
 
 /* =============== TEASER OG NEDLASTNING =============== */
