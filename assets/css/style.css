@@ -670,3 +670,16 @@ p {
     max-width: 100%;
   }
 }
+/* 📱 RESPONSIV: Gjør knappen bred og midtstilt på mobil */
+@media (max-width: 600px) {
+  .start-btn {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+  }
+
+  .kursliste li {
+    text-align: center;
+  }
+}
