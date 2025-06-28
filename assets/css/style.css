@@ -310,6 +310,20 @@ a:hover {
   margin-bottom: 0.8em;
   line-height: 1.5;
 }
+.start-btn {
+  display: inline-block;
+  background-color: var(--accent-color, #979e58); /* juster til ditt tema */
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: var(--accent-hover, #2563eb);
+}
 
 /* =============== KONTAKT / FOOTER =============== */
 .contact-section {
