@@ -713,3 +713,59 @@ p {
     text-align: center;
   }
 }
+/* Kombinert boks med to valg på mobil */
+.choose-path.single {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.option-box.combo {
+  background: linear-gradient(to bottom right, #272829, #565f68);
+  color: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.btn-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn-row .btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.btn-row .btn.blue {
+  background: #00aaff;
+  color: #fff;
+}
+
+.btn-row .btn.pink {
+  background: #ff3377;
+  color: #fff;
+}
+
+/* Juster for større skjermer hvis ønskelig */
+@media (min-width: 768px) {
+  .btn-row {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn-row .btn {
+    min-width: 160px;
+  }
+}
