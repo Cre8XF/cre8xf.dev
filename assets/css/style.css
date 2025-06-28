@@ -657,14 +657,18 @@ p {
   .choose-path {
     flex-direction: column;
     align-items: center;
-    gap: 2rem; /* legg til om den mangler */
-    margin-top: 2rem;
-    padding: 0 1rem; /* gir rom på små skjermer */
+    gap: 2rem;
+    padding: 0 1rem;
   }
 
   .option-box {
-    max-width: 100%;
-    padding: 1.2rem;
+    width: 100%;
+    max-width: 95%;
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+    box-sizing: border-box;
+    border-radius: 16px;
   }
 
   .hero-flex {
@@ -686,11 +690,16 @@ p {
 }
 
 .option-box h3 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .option-box p {
-  font-size: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.option-box + .option-box {
+  margin-top: 1rem;
 }
 
 /* 📱 RESPONSIV: Gjør knappen bred og midtstilt på mobil */
