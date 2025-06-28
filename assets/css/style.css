@@ -283,6 +283,15 @@ a:hover {
   color: #fede50;
 }
 
+/* Flex-oppsett for hero med bilde og tekst */
+.hero-flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .hero-text h1 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
@@ -559,7 +568,7 @@ p {
 }
 
 /* =============== RESPONSIVE =============== */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   body {
     padding: 1rem;
   }
@@ -618,6 +627,21 @@ p {
   .choose-path {
     flex-direction: column;
     align-items: center;
+  }
+
+  .option-box {
+    max-width: 100%;
+    padding: 1.2rem;
+  }
+
+  .hero-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-flex .hero-img,
+  .hero-flex .hero-text {
+    max-width: 100%;
   }
 }
 
