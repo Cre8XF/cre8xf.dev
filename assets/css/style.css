@@ -301,6 +301,16 @@ a:hover {
   font-size: 1rem;
   line-height: 1.5;
 }
+ul {
+  list-style: none; /* Valgfritt: fjerner standard punkter */
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.8em; /* Juster gjerne til 1em om du vil ha mer luft */
+  line-height: 1.5;
+}
+
 /* =============== KONTAKT / FOOTER =============== */
 .contact-section {
   text-align: center;
@@ -519,7 +529,6 @@ a:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
 
-
 h1,
 h2 {
   color: #fede50;
@@ -644,4 +653,3 @@ p {
     max-width: 100%;
   }
 }
-
