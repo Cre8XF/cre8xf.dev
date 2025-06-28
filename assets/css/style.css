@@ -757,6 +757,23 @@ p {
   background: #ff3377;
   color: #fff;
 }
+/* Større tekst i komboboksen */
+.option-box.combo h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.option-box.combo p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+/* Større knapper */
+.btn-row .btn {
+  font-size: 1.2rem;
+  padding: 1rem 1.8rem;
+  border-radius: 12px;
+}
 
 /* Juster for større skjermer hvis ønskelig */
 @media (min-width: 768px) {
@@ -767,5 +784,18 @@ p {
 
   .btn-row .btn {
     min-width: 160px;
+  }
+}
+@media (max-width: 600px) {
+  .option-box.combo h3 {
+    font-size: 1.5rem;
+  }
+
+  .option-box.combo p {
+    font-size: 1.2rem;
+  }
+
+  .btn-row .btn {
+    font-size: 1.25rem;
   }
 }
