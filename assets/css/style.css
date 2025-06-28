@@ -307,23 +307,27 @@ a:hover {
 }
 
 .kursliste li {
-  margin-bottom: 0.8em;
+  margin-bottom: 1.2em;
+  font-size: 1.1rem;
   line-height: 1.5;
 }
+
+/* Spesielt for knappen */
 .start-btn {
-  display: inline-block;
-  background-color: #a9aa5b; /* Blå – passer med CRE8XF-profilen */
+  display: block;
+  background-color: #3b82f6;
   color: white;
-  padding: 0.6em 1em;
-  font-size: 1rem;
-  font-weight: bold;
+  padding: 0.9em 1.2em;
+  font-size: 1.1rem; /* matcher de andre punktene */
+  font-weight: 600;
   border-radius: 0.6em;
   text-decoration: none;
-  margin-bottom: 1em;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
+  text-align: center;
 }
 
+/* Hover for desktop */
 .start-btn:hover {
   background-color: #2563eb;
 }
@@ -673,10 +677,8 @@ p {
 /* 📱 RESPONSIV: Gjør knappen bred og midtstilt på mobil */
 @media (max-width: 600px) {
   .start-btn {
-    display: block;
     width: 100%;
     box-sizing: border-box;
-    font-size: 1.1rem;
   }
 
   .kursliste li {
