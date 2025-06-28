@@ -315,7 +315,7 @@ a:hover {
 /* Spesielt for knappen */
 .start-btn {
   display: block;
-  background-color: #3b82f6;
+  background-color: #8a9451;
   color: white;
   padding: 0.9em 1.2em;
   font-size: 1.1rem; /* matcher de andre punktene */
@@ -657,6 +657,9 @@ p {
   .choose-path {
     flex-direction: column;
     align-items: center;
+    gap: 2rem; /* legg til om den mangler */
+    margin-top: 2rem;
+    padding: 0 1rem; /* gir rom på små skjermer */
   }
 
   .option-box {
@@ -674,6 +677,22 @@ p {
     max-width: 100%;
   }
 }
+.option-box {
+  width: 100%;
+  max-width: 500px;
+  padding: 1.6rem 1.2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.option-box h3 {
+  font-size: 1.25rem;
+}
+
+.option-box p {
+  font-size: 1rem;
+}
+
 /* 📱 RESPONSIV: Gjør knappen bred og midtstilt på mobil */
 @media (max-width: 600px) {
   .start-btn {
