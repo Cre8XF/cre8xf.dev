@@ -301,13 +301,13 @@ a:hover {
   font-size: 1rem;
   line-height: 1.5;
 }
-ul {
-  list-style: none; /* Valgfritt: fjerner standard punkter */
+.kursliste {
+  list-style: none;
   padding-left: 0;
 }
 
-ul li {
-  margin-bottom: 0.8em; /* Juster gjerne til 1em om du vil ha mer luft */
+.kursliste li {
+  margin-bottom: 0.8em;
   line-height: 1.5;
 }
 
