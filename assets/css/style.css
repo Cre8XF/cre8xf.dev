@@ -428,13 +428,23 @@ a:hover {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 2rem;
+  align-items: stretch; /* 🆕 dette gjør at .option-box blir like høye */
 }
+
 .option-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Sørger for at knapp og tekst får luft */
-  height: 100%;
+  justify-content: space-between;
+  flex: 1 1 300px; /* 👈 gjør boksene fleksible og like brede */
+  max-width: 400px; /* begrenset bredde */
+  min-height: 360px; /* eller det som passer visuelt */
+  padding: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(to bottom right, #272829, #565f68);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
 .option-box h3 {
   margin-top: 0;
   font-size: 1.2rem;
