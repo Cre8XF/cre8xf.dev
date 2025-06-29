@@ -616,3 +616,31 @@ p {
   background: #ff3377;
   color: #fff;
 }
+/* =============== EKSEMPLER OG GALLERI =============== */
+.site-examples {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.example-gallery {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.example {
+  max-width: 400px;
+  background: var(--box-bg, #f8f9fa);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow, 0 2px 8px rgba(0, 0, 0, 0.1));
+  text-align: center;
+}
+
+.example img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
