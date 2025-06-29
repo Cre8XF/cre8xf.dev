@@ -417,6 +417,62 @@ a:hover {
   line-height: 1.4;
   margin: 0;
 }
+.example-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.template-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.template-example {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.2rem;
+  max-width: 340px;
+  flex: 1 1 300px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.template-example:hover {
+  transform: translateY(-4px);
+}
+
+.template-example img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.template-example h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ffd700;
+}
+
+.template-example p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.template-example a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #00bfff;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
 /* Oppdeling for startvalg */
 .split-start {
   text-align: center;
