@@ -1,6 +1,9 @@
+/* ===== VARIABLER OG TEMA ===== */
 :root {
   --bg-color: #524b4b;
   --text-color: #f5f5f5;
+
+  /* ===== TYPOGRAFI OG LINKER ===== */
   --accent: #ffd700;
   --accent-light: #ffef9f;
   --link-color: #ffcc00;
@@ -15,6 +18,8 @@
   --subtle-text: #555;
 }
 /* =============== RESET =============== */
+
+/* ===== RESET OG BASE ===== */
 * {
   margin: 0;
   padding: 0;
@@ -27,9 +32,13 @@ body {
   color: var(--text-color);
   line-height: 1.6;
   padding: 2rem;
+
+  /* ===== ANIMASJONER OG TILSTAND ===== */
   transition: background-color 0.3s, color 0.3s;
 }
 /* =============== HEADER =============== */
+
+/* ===== LAYOUT OG SEKSJONER ===== */
 header {
   text-align: center;
   margin-bottom: 2rem;
@@ -47,6 +56,8 @@ header {
   max-width: 800px;
   margin: 0 auto;
 }
+
+/* ===== KOMPONENTER OG BOKSER ===== */
 .logo {
   max-width: 140px;
   margin-top: 1.5rem; /* ✅ Flytter logoen litt ned */
@@ -209,22 +220,6 @@ a:hover {
 .note {
   margin-top: 0.5rem;
   font-size: 0.9rem;
-}
-.note.bottom {
-  margin-top: 1rem;
-}
-.pricing-table {
-  width: 100%;
-  text-align: left;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-.pricing-table th {
-  padding: 0.5rem;
-  border-bottom: 1px solid var(--accent);
-}
-.pricing-table td {
-  padding: 0.5rem;
 }
 .course-banner {
   width: 100%;
