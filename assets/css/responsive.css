@@ -1,0 +1,222 @@
+/* === Ryddet responsive.css === */
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h2 {
+    font-size: 1.1rem;
+  }
+
+  .support-options {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .course-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-top: 1.5rem;
+  }
+
+  .pricing-table {
+    font-size: 0.85rem;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    padding: 0.4rem;
+  }
+
+  .note {
+    font-size: 0.85rem;
+  }
+
+  .gallery {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .example {
+    max-width: 95%;
+    padding: 0.6rem;
+  }
+
+  .example p {
+    font-size: 0.8rem;
+  }
+
+  .choose-path {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .option-box {
+    width: 100%;
+    max-width: 95%;
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+
+  .hero-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-flex .hero-img,
+  .hero-flex .hero-text {
+    max-width: 100%;
+  }
+
+  body {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h2 {
+    font-size: 1.1rem;
+  }
+
+  .support-options {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .course-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-top: 1.5rem; /* 👈 mobiltilpasning for logoen */
+  }
+
+  .pricing-table {
+    font-size: 0.85rem;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    padding: 0.4rem;
+  }
+
+  .note {
+    font-size: 0.85rem;
+  }
+
+  /* Eksempelseksjon – galleri */
+  .gallery {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .example {
+    max-width: 95%;
+    padding: 0.6rem;
+  }
+
+  .example p {
+    font-size: 0.8rem;
+  }
+
+  /* Responsiv for mobil */
+  .choose-path {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+
+  .option-box {
+    width: 100%;
+    max-width: 95%;
+    padding: 1.8rem 1.4rem;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+    box-sizing: border-box;
+    border-radius: 16px;
+  }
+
+  .hero-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-flex .hero-img,
+  .hero-flex .hero-text {
+    max-width: 100%;
+  }
+
+  .choose-path {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .option-box {
+    width: 100%;
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 600px) {
+  .start-btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .kursliste li {
+    text-align: center;
+  }
+
+  .choose-path.single {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .start-btn {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .kursliste li {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn-row {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn-row .btn {
+    min-width: 160px;
+  }
+
+  .btn-row {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .btn-row .btn {
+    min-width: 160px;
+  }
+}

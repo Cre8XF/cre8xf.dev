@@ -6,7 +6,6 @@
   --link-color: #ffcc00;
   --subtle-text: #aaa;
 }
-
 [data-theme='light'] {
   --bg-color: #ffffff;
   --text-color: #1a1a1a;
@@ -15,14 +14,12 @@
   --link-color: #cc7700;
   --subtle-text: #555;
 }
-
 /* =============== RESET =============== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 /* =============== BASE =============== */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,13 +29,11 @@ body {
   padding: 2rem;
   transition: background-color 0.3s, color 0.3s;
 }
-
 /* =============== HEADER =============== */
 header {
   text-align: center;
   margin-bottom: 2rem;
 }
-
 .hero {
   text-align: center;
   background: linear-gradient(to bottom, #121212, #1e1a1a, #2e2626);
@@ -48,30 +43,25 @@ header {
   justify-content: center;
   padding-bottom: 2rem;
 }
-
 .hero-content {
   max-width: 800px;
   margin: 0 auto;
 }
-
 .logo {
   max-width: 140px;
   margin-top: 1.5rem; /* ✅ Flytter logoen litt ned */
   filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.25));
 }
-
 header h1 {
   font-size: 2.5rem;
   color: var(--accent);
   letter-spacing: 2px;
 }
-
 header h2 {
   font-size: 1.3rem;
   color: var(--accent-light);
   font-weight: 400;
 }
-
 header p {
   font-style: italic;
   margin-top: 0.5rem;
@@ -86,7 +76,6 @@ header p {
   color: var(--text);
   text-align: center;
 }
-
 /* =============== MAIN CONTENT =============== */
 main,
 section {
@@ -94,33 +83,27 @@ section {
   margin: 0 auto 2.5rem auto;
   padding: 1rem 1.5rem;
 }
-
 section h3 {
   margin-bottom: 1rem;
   border-bottom: 2px solid var(--accent);
   padding-bottom: 0.3rem;
   color: var(--accent);
 }
-
 section p,
 section ul {
   margin-left: 1rem;
 }
-
 ul {
   list-style-type: square;
   padding-left: 1.2rem;
 }
-
 ul li {
   margin-bottom: 0.5rem;
 }
-
 a {
   color: var(--link-color);
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
@@ -131,7 +114,6 @@ a:hover {
   transform: scale(1.02);
   transition: transform 0.3s ease;
 }
-
 /* =============== SUPPORT / DONASJON =============== */
 .support-section {
   text-align: center;
@@ -142,7 +124,6 @@ a:hover {
   max-width: 900px;
   color: #f7d038;
 }
-
 .support-options {
   display: flex;
   flex-wrap: wrap;
@@ -150,7 +131,6 @@ a:hover {
   gap: 2em;
   margin-top: 2em;
 }
-
 .support-box {
   background: linear-gradient(to bottom, #161616, #5e5353);
   border-radius: 10px;
@@ -158,7 +138,6 @@ a:hover {
   width: 240px;
   text-align: center;
 }
-
 .qr-image {
   display: block;
   margin: 1rem auto;
@@ -166,12 +145,10 @@ a:hover {
   width: 100%;
   max-width: 150px;
 }
-
 .support-box h3 {
   margin-bottom: 0.5rem;
   color: #fff;
 }
-
 .support-box .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -182,7 +159,6 @@ a:hover {
   font-weight: bold;
   text-decoration: none;
 }
-
 /* =============== KURS-KORT OG BILDER =============== */
 .course-cards {
   display: flex;
@@ -191,7 +167,6 @@ a:hover {
   justify-content: center;
   margin-top: 2rem;
 }
-
 .course-card {
   background-color: #1c1c1c;
   border: 1px solid #333;
@@ -203,23 +178,19 @@ a:hover {
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.05);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .course-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 0 25px rgba(255, 215, 0, 0.15);
 }
-
 .course-card h3 {
   color: var(--accent);
   margin-top: 1rem;
 }
-
 .course-card p {
   font-size: 0.95rem;
   color: var(--subtle-text);
   margin: 0.5rem 0 1rem;
 }
-
 .course-card .btn {
   display: inline-block;
   padding: 0.6rem 1.2rem;
@@ -229,7 +200,6 @@ a:hover {
   border-radius: 5px;
   text-decoration: none;
 }
-
 .course-image {
   width: 100%;
   height: auto;
@@ -240,23 +210,19 @@ a:hover {
   margin-top: 0.5rem;
   font-size: 0.9rem;
 }
-
 .note.bottom {
   margin-top: 1rem;
 }
-
 .pricing-table {
   width: 100%;
   text-align: left;
   border-collapse: collapse;
   margin-top: 1rem;
 }
-
 .pricing-table th {
   padding: 0.5rem;
   border-bottom: 1px solid var(--accent);
 }
-
 .pricing-table td {
   padding: 0.5rem;
 }
@@ -277,12 +243,10 @@ a:hover {
   max-height: 300px; /* Maks høyde for bildet */
   border-radius: 10px;
 }
-
 .hero-text {
   max-width: 500px;
   color: #fede50;
 }
-
 /* Flex-oppsett for hero med bilde og tekst */
 .hero-flex {
   display: flex;
@@ -291,12 +255,10 @@ a:hover {
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .hero-text h1 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
-
 .hero-text p {
   font-size: 1rem;
   line-height: 1.5;
@@ -305,13 +267,11 @@ a:hover {
   list-style: none;
   padding-left: 0;
 }
-
 .kursliste li {
   margin-bottom: 1.2em;
   font-size: 1.1rem;
   line-height: 1.5;
 }
-
 /* Spesielt for knappen */
 .start-btn {
   display: block;
@@ -326,12 +286,10 @@ a:hover {
   transition: background-color 0.3s ease;
   text-align: center;
 }
-
 /* Hover for desktop */
 .start-btn:hover {
   background-color: #2563eb;
 }
-
 /* =============== KONTAKT / FOOTER =============== */
 .contact-section {
   text-align: center;
@@ -340,12 +298,10 @@ a:hover {
   color: #fff;
   margin-top: 4em;
 }
-
 .contact-section a {
   color: #f7d038;
   text-decoration: underline;
 }
-
 .centered {
   text-align: center;
   margin: 0 auto;
@@ -354,7 +310,6 @@ a:hover {
   text-align: center;
   margin-top: 3rem;
 }
-
 .btn-back {
   padding: 0.8rem 1.5rem;
   background: var(--accent);
@@ -363,19 +318,16 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
 }
-
 .footer {
   margin-top: 2rem;
   text-align: center;
   font-size: 0.95rem;
   color: var(--text-color);
 }
-
 .footer a {
   color: var(--text-color);
   text-decoration: underline;
 }
-
 /* =============== TEASER OG NEDLASTNING =============== */
 .teaser-wrapper {
   margin-top: 1.5rem;
@@ -384,7 +336,6 @@ a:hover {
   border-left: 4px solid #ffd700;
   border-radius: 8px;
 }
-
 .btn-download {
   display: inline-block;
   margin-top: 0.5rem;
@@ -396,7 +347,6 @@ a:hover {
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
-
 .btn-download:hover {
   background-color: #e6c200;
 }
@@ -443,7 +393,6 @@ a:hover {
   gap: 1.2rem;
   margin-top: 1rem;
 }
-
 .example {
   background-color: var(--box-bg, #1c1c1c);
   border-radius: 8px;
@@ -453,7 +402,6 @@ a:hover {
   padding: 0.75rem;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
 }
-
 .example img {
   width: 100%;
   height: auto;
@@ -461,11 +409,9 @@ a:hover {
   margin-bottom: 0.5rem;
   transition: transform 0.2s ease;
 }
-
 .example img:hover {
   transform: scale(1.01);
 }
-
 .example p {
   font-size: 0.85rem;
   line-height: 1.4;
@@ -476,7 +422,6 @@ a:hover {
   text-align: center;
   padding: 2rem 1rem;
 }
-
 .choose-path {
   display: flex;
   gap: 2rem;
@@ -484,39 +429,30 @@ a:hover {
   flex-wrap: wrap;
   margin-top: 2rem;
 }
-
 .option-box {
-  flex: 1 1 300px;
-  max-width: 400px;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  text-align: left;
-  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Sørger for at knapp og tekst får luft */
+  height: 100%;
 }
-
 .option-box h3 {
   margin-top: 0;
   font-size: 1.2rem;
 }
-
 .option-box p {
   margin-bottom: 1rem;
   font-size: 1rem;
   line-height: 1.5;
 }
-
 /* Matrix-farger */
 .option-box.nettside {
   background: linear-gradient(to bottom right, #272829, #565f68);
   color: #fff;
 }
-
 .option-box.ai {
   background: linear-gradient(to bottom right, #272829, #565f68);
   color: #fff;
 }
-
 .option-box h3,
 .option-box p {
   color: #fff;
@@ -534,27 +470,22 @@ a:hover {
   transition: transform 0.2s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
-
 .option-box.nettside .btn {
   background: #00aaff;
   color: #fff;
 }
-
 .option-box.ai .btn {
   background: #ff3377;
   color: #fff;
 }
-
 .option-box .btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
-
 h1,
 h2 {
   color: #fede50;
 }
-
 .section {
   background: #706e6e;
   border: 1px solid #333;
@@ -581,7 +512,6 @@ p {
   gap: 12px;
   margin-bottom: 2em;
 }
-
 .download-btn {
   display: block;
   background-color: #849c4a;
@@ -592,143 +522,62 @@ p {
   font-size: 1rem;
   transition: background 0.3s ease;
 }
-
 .download-btn:hover {
   background-color: #003f99;
 }
-
-/* =============== RESPONSIVE =============== */
-@media (max-width: 768px) {
-  body {
-    padding: 1rem;
-  }
-
-  header h1 {
-    font-size: 2rem;
-  }
-
-  header h2 {
-    font-size: 1.1rem;
-  }
-
-  .support-options {
-    flex-direction: column;
-    gap: 1.5em;
-  }
-
-  .course-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .logo {
-    margin-top: 1.5rem; /* 👈 mobiltilpasning for logoen */
-  }
-
-  .pricing-table {
-    font-size: 0.85rem;
-  }
-
-  .pricing-table th,
-  .pricing-table td {
-    padding: 0.4rem;
-  }
-
-  .note {
-    font-size: 0.85rem;
-  }
-
-  /* Eksempelseksjon – galleri */
-  .gallery {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .example {
-    max-width: 95%;
-    padding: 0.6rem;
-  }
-
-  .example p {
-    font-size: 0.8rem;
-  }
-
-  /* Responsiv for mobil */
-  .choose-path {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    padding: 0 1rem;
-  }
-
-  .option-box {
-    width: 100%;
-    max-width: 95%;
-    padding: 1.8rem 1.4rem;
-    margin-bottom: 2rem;
-    font-size: 1.05rem;
-    box-sizing: border-box;
-    border-radius: 16px;
-  }
-
-  .hero-flex {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .hero-flex .hero-img,
-  .hero-flex .hero-text {
-    max-width: 100%;
-  }
-}
 .option-box {
-  width: 100%;
+  flex: 1 1 300px;
   max-width: 500px;
-  padding: 1.6rem 1.2rem;
-  margin-bottom: 1.5rem;
-  font-size: 1rem;
+  min-height: 360px;
+  padding: 2rem 1.4rem;
+  border-radius: 1rem;
+  background: linear-gradient(to bottom right, #272829, #565f68);
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  font-size: 1.05rem;
 }
-
 .option-box h3 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
-
 .option-box p {
-  font-size: 1.05rem;
   line-height: 1.6;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.05rem;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+.btn-blue {
+  background: #00aaff;
+  color: #fff;
+}
+.btn-pink {
+  background: #ff3377;
+  color: #fff;
 }
 .option-box + .option-box {
   margin-top: 1rem;
 }
 
-/* 📱 RESPONSIV: Gjør knappen bred og midtstilt på mobil */
-@media (max-width: 600px) {
-  .start-btn {
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .kursliste li {
-    text-align: center;
-  }
-}
-/* Kombinert boks med to valg på mobil */
 .choose-path.single {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-}
-
-.option-box.combo {
-  background: linear-gradient(to bottom right, #272829, #565f68);
-  color: #fff;
-  padding: 2rem 1.5rem;
-  border-radius: 1rem;
-  max-width: 600px;
-  width: 100%;
-  text-align: center;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
 .btn-row {
@@ -756,16 +605,4 @@ p {
 .btn-row .btn.pink {
   background: #ff3377;
   color: #fff;
-}
-
-/* Juster for større skjermer hvis ønskelig */
-@media (min-width: 768px) {
-  .btn-row {
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .btn-row .btn {
-    min-width: 160px;
-  }
 }
