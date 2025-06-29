@@ -1,28 +1,22 @@
+/* ===== VARIABLER OG TEMA ===== */
 :root {
-  /* Bakgrunner */
-  --bg-color: #121212;
-  --box-bg: #1f1f1f;
-  --box-bg-light: #292929;
-  --gradient-start: #1f1f1f;
-  --gradient-mid: #1a1a1a;
-  --gradient-end: #121212;
+  --bg-color: #524b4b;
+  --text-color: var(--text-color);
 
-  /* Tekst */
-  --text-color: #f7f7f7;
+  /* ===== TYPOGRAFI OG LINKER ===== */
+  --accent: var(--accent);
+  --accent-light: var(--accent-light);
+  --link-color: #ffcc00;
   --subtle-text: #aaa;
-
-  /* Aksent og knapper */
-  --accent: #d4af37; /* gull */
-  --accent-light: #f6e27f;
-  --link-color: #fcd34d;
-  --btn-blue: #fbbf24;
-  --btn-pink: #eab308;
-
-  /* Layout og dekor */
-  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  --border-radius: 12px;
 }
-
+[data-theme='light'] {
+  --bg-color: var(--text-color);
+  --text-color: #1a1a1a;
+  --accent: #cc9900;
+  --accent-light: #e6c670;
+  --link-color: #cc7700;
+  --subtle-text: #555;
+}
 /* =============== RESET =============== */
 
 /* ===== RESET OG BASE ===== */
@@ -34,7 +28,7 @@
 /* =============== BASE =============== */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(to bottom, var(--bg-color) 0%, var(--box-bg) 100%);
+  background: linear-gradient(to bottom, #2f2929 0%, #1f1b1b 100%);
   color: var(--text-color);
   line-height: 1.6;
   padding: 2rem;
@@ -51,7 +45,7 @@ header {
 }
 .hero {
   text-align: center;
-  background: linear-gradient(to bottom, var(--box-bg), var(--bg-color));
+  background: linear-gradient(to bottom, #121212, #1e1a1a, #2e2626);
   color: var(--accent);
   display: flex;
   align-items: flex-end;
@@ -170,7 +164,7 @@ a:hover {
   display: inline-block;
   margin-top: 1rem;
   background-color: var(--accent);
-  color: var(--text-color);
+  color: #222;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: bold;
@@ -212,7 +206,7 @@ a:hover {
   display: inline-block;
   padding: 0.6rem 1.2rem;
   background-color: var(--accent);
-  color: var(--text-color);
+  color: #000;
   font-weight: bold;
   border-radius: 5px;
   text-decoration: none;
@@ -338,7 +332,7 @@ a:hover {
   margin-top: 0.5rem;
   padding: 0.6rem 1.2rem;
   background-color: var(--accent);
-  color: var(--text-color);
+  color: #000;
   font-weight: bold;
   border-radius: 5px;
   text-decoration: none;
@@ -467,13 +461,13 @@ a:hover {
 
 .template-example p {
   font-size: 0.95rem;
-  color: var(--subtle-text);
+  color: #444;
 }
 
 .template-example a {
   display: inline-block;
   margin-top: 0.5rem;
-  color: var(--link-color);
+  color: #00bfff;
   font-size: 0.9rem;
   text-decoration: none;
 }
@@ -501,7 +495,7 @@ a:hover {
   min-height: 360px; /* eller det som passer visuelt */
   padding: 2rem;
   border-radius: 1rem;
-  background: linear-gradient(to bottom right, var(--box-bg), var(--box-bg-light));
+  background: linear-gradient(to bottom right, #272829, #565f68);
   color: var(--text-color);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -517,11 +511,11 @@ a:hover {
 }
 /* Matrix-farger */
 .option-box.nettside {
-  background: linear-gradient(to bottom right, var(--box-bg), var(--box-bg-light));
+  background: linear-gradient(to bottom right, #272829, #565f68);
   color: var(--text-color);
 }
 .option-box.ai {
-  background: linear-gradient(to bottom right, var(--box-bg), var(--box-bg-light));
+  background: linear-gradient(to bottom right, #272829, #565f68);
   color: var(--text-color);
 }
 .option-box h3,
@@ -558,9 +552,9 @@ h2 {
   color: var(--accent);
 }
 .section {
-  background: linear-gradient(to bottom, var(--box-bg), var(--box-bg-light));
+  background: #706e6e;
   border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: var(--border-radius);
+  border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 2rem;
 }
@@ -585,7 +579,7 @@ p {
 }
 .download-btn {
   display: block;
-  background-color: var(--accent);
+  background-color: #849c4a;
   color: var(--text-color);
   padding: 12px 18px;
   text-decoration: none;
@@ -594,7 +588,7 @@ p {
   transition: background 0.3s ease;
 }
 .download-btn:hover {
-  background-color: var(--btn-blue);
+  background-color: #003f99;
 }
 .option-box {
   flex: 1 1 300px;
@@ -602,7 +596,7 @@ p {
   min-height: 360px;
   padding: 2rem 1.4rem;
   border-radius: 1rem;
-  background: linear-gradient(to bottom right, var(--box-bg), var(--box-bg-light));
+  background: linear-gradient(to bottom right, #272829, #565f68);
   color: var(--text-color);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -676,21 +670,4 @@ p {
 .btn-row .btn.pink {
   background: var(--btn-pink);
   color: var(--text-color);
-}
-
-/* === Tekstjustering i bokser og kort === */
-.option-box p,
-.option-box h3,
-.support-box p,
-.support-box h3,
-.course-card p,
-.course-card h3,
-.template-example p,
-.template-example h3 {
-  color: var(--text-color);
-}
-
-/* === Knapper === */
-.btn {
-  color: #fff;
 }
