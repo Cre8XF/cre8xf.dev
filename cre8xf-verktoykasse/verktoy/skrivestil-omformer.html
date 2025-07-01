@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skrivestil-omformer – CRE8XF Verktøykasse</title>
+    <link rel="stylesheet" href="/assets/css/verktoy.css" />
+</head>
+
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓 Bytt tema</button>
+
+    <header>
+        <div class="container">
+            <h1>✍️ Skrivestil-omformer</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="skrivestilForm">
+                <label for="originalText">Tekst du vil endre stil på:</label>
+                <textarea id="originalText" rows="6" required placeholder="Skriv inn teksten her..."></textarea>
+
+                <label for="stil">Velg skrivestil:</label>
+                <select id="stil">
+                    <option value="vennlig">Vennlig</option>
+                    <option value="formell">Formell</option>
+                    <option value="entusiastisk">Entusiastisk</option>
+                    <option value="humoristisk">Humoristisk</option>
+                </select>
+
+                <button type="submit">Endre skrivestil</button>
+            </form>
+
+            <div id="stilResultat" class="prompt-box" style="display:none;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/skrivestil-omformer.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</body>
+
+</html>

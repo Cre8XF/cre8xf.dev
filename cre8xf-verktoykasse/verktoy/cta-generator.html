@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CTA Generator – CRE8XF Verktøykasse</title>
+    <link rel="stylesheet" href="/assets/css/verktoy.css" />
+</head>
+
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓 Bytt tema</button>
+
+    <header>
+        <div class="container">
+            <h1>📣 CTA Generator</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <label for="mål">Mål med CTA:</label>
+            <select id="mål">
+                <option value="kjøpe et produkt">Få kunden til å kjøpe et produkt</option>
+                <option value="melde seg på nyhetsbrev">Få besøkende til å melde seg på nyhetsbrev</option>
+                <option value="kontakte oss">Oppfordre til å kontakte deg</option>
+                <option value="prøve gratisversjon">Oppfordre til å prøve gratisversjon</option>
+            </select>
+
+            <label for="tone">Tone:</label>
+            <select id="tone">
+                <option value="inspirerende">Inspirerende</option>
+                <option value="direkte">Direkte</option>
+                <option value="vennlig">Vennlig</option>
+                <option value="presserende">Presserende</option>
+            </select>
+
+            <button onclick="generateCTA()">🎯 Lag CTA</button>
+
+            <div id="ctaResult" class="prompt-box" style="display:none;"></div>
+            <button class="copy-btn" onclick="copyCTA()">Kopier CTA</button>
+        </div>
+    </main>
+
+    <script src="../assets/js/cta-generator.js"></script>
+    <script src="../assets/js/theme.js"></script>
+
+</html>

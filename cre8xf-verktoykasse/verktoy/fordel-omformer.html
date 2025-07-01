@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fordel-omformer – CRE8XF Verktøykasse</title>
+    <link rel="stylesheet" href="/assets/css/verktoy.css" />
+</head>
+
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓 Bytt tema</button>
+
+    <header>
+        <div class="container">
+            <h1>🎯 Fordel-omformer</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <p>Oversett funksjoner til fordeler som kundene bryr seg om.</p>
+
+            <form id="benefitForm">
+                <label for="featureInput">Funksjon eller egenskap</label>
+                <input type="text" id="featureInput" placeholder="F.eks. automatisk sikkerhetskopi, rask levering"
+                    required />
+
+                <button type="submit" class="btn-primary">✨ Generer fordelsversjon</button>
+            </form>
+
+            <div id="benefitResult" class="prompt-box" style="display:none;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/fordel-omformer.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Idégenerator – CRE8XF Verktøykasse</title>
+    <link rel="stylesheet" href="/assets/css/verktoy.css" />
+</head>
+
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓 Bytt tema</button>
+
+    <header>
+        <div class="container">
+            <h1>💡 Idégenerator</h1>
+            <p>Få forslag til ideer basert på et tema eller behov.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="ideaForm">
+                <label for="behov">Hva trenger du en idé til?</label>
+                <input type="text" id="behov" placeholder="F.eks. Instagram-innlegg, produktkampanje ..." />
+                <button type="submit" class="btn-primary">🎯 Generer idé</button>
+            </form>
+
+            <div id="ideaResult" class="result-box" style="display: none;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/idegenerator.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</body>
+
+</html>

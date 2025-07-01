@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompt Generator – CRE8XF Verktøykasse</title>
+    <link rel="stylesheet" href="/assets/css/verktoy.css" />
+</head>
+
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓 Bytt tema</button>
+
+    <header>
+        <div class="container">
+            <h1>🎯 Prompt Generator</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="promptForm">
+                <label for="rolle">Velg rolle:</label>
+                <select id="rolle" required>
+                    <option value="">Velg...</option>
+                    <option>Markedsfører</option>
+                    <option>Tekstforfatter</option>
+                    <option>Lærer</option>
+                    <option>Produktutvikler</option>
+                </select>
+
+                <label for="oppgave">Hva skal den gjøre?</label>
+                <input type="text" id="oppgave" placeholder="Eksempel: Skriv en annonsetekst for..." required />
+
+                <label for="format">Format (valgfritt):</label>
+                <input type="text" id="format" placeholder="Eksempel: Punktliste, e-post, blogginnlegg..." />
+
+                <button type="submit">Generer prompt</button>
+            </form>
+
+            <div id="resultat" class="prompt-box" style="display:none;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/prompt-generator.js"></script>
+    <script src="../assets/js/theme.js"></script>
+
+</body>
+
+</html>

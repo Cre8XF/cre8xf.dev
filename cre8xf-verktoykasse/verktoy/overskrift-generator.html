@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overskrift-generator – CRE8XF Verktøykasse</title>
+    <link rel="stylesheet" href="/assets/css/verktoy.css" />
+</head>
+
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">🌓 Bytt tema</button>
+
+    <header>
+        <div class="container">
+            <h1>📰 Overskrift-generator</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form id="overskriftForm">
+                <label for="tema">Hva handler innholdet om?</label>
+                <input type="text" id="tema" placeholder="Eksempel: Tips for bedre søvn" required />
+
+                <label for="stil">Velg stil:</label>
+                <select id="stil">
+                    <option value="informativ">Informativ</option>
+                    <option value="klikkvennlig">Klikkvennlig</option>
+                    <option value="morsom">Morsom</option>
+                    <option value="listicle">Listeform</option>
+                </select>
+
+                <button type="submit">Generer overskrift</button>
+            </form>
+
+            <div id="overskriftResultat" class="prompt-box" style="display:none;"></div>
+        </div>
+    </main>
+
+    <script src="../assets/js/overskrift-generator.js"></script>
+    <script src="../assets/js/theme.js"></script>
+</body>
+
+</html>
