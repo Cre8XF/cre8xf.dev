@@ -694,3 +694,151 @@ p {
 .btn {
   color: #fff;
 }
+/* For seksjonen med eksempler */
+.content-container section {
+  margin-bottom: 3rem;
+}
+
+/* Promptekster */
+.prompt-box {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+  font-family: monospace;
+  font-size: 0.95rem;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #ffce00;
+  margin: 1rem 0;
+  white-space: pre-wrap;
+}
+
+/* Kodeblokker */
+pre code {
+  background-color: #0f0f0f;
+  display: block;
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+
+/* Tittelstil inni eksemplene */
+.example-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+}
+
+/* Sammenligningstabell */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid #444;
+  text-align: left;
+}
+
+.comparison-table th {
+  background-color: #222;
+  color: #fff;
+}
+
+.comparison-table td:first-child {
+  font-weight: 500;
+}
+
+.comparison-table td:nth-child(2),
+.comparison-table td:nth-child(3) {
+  text-align: center;
+}
+/* === Codex-eksempler – stil og struktur === */
+
+.content-container section {
+  margin-bottom: 3rem;
+}
+
+/* Tittel for hvert kodeeksempel */
+.example-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #ffce00;
+}
+
+/* Prompt-boks */
+.prompt-box {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+  font-family: monospace;
+  font-size: 0.95rem;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #ffce00;
+  margin: 0.75rem 0 1.25rem 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border-radius: 4px;
+}
+
+/* Kodeblokker */
+pre code {
+  background-color: #0f0f0f;
+  display: block;
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  color: #f8f8f8;
+}
+
+/* Sammenligningstabell */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid #444;
+  text-align: left;
+}
+
+.comparison-table th {
+  background-color: #222;
+  color: #fff;
+}
+
+.comparison-table td:first-child {
+  font-weight: 500;
+}
+
+.comparison-table td:nth-child(2),
+.comparison-table td:nth-child(3) {
+  text-align: center;
+}
+
+/* Responsivt tilpasset */
+@media (max-width: 600px) {
+  .prompt-box {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.9rem;
+  }
+
+  pre code {
+    font-size: 0.85rem;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    font-size: 0.9rem;
+  }
+}

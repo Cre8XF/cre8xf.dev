@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Hva er Codex? Lær om OpenAI Codex, forskjellen mellom Codex og ChatGPT, og hvordan du kan bruke det i prosjektene dine." />
+    <title>Hva er Codex? | Cre8XF</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body>
+    <header class="page-header">
+        <h1>🤖 Hva er Codex?</h1>
+        <p>AI-modellen som forstår og skriver kode</p>
+    </header>
+
+    <main class="content-container">
+        <section>
+            <h2>Hva er Codex?</h2>
+            <p>
+                <strong>Codex</strong> er en spesialisert AI-modell fra OpenAI som er trent til å forstå og generere
+                kode. Der ChatGPT hjelper med tekst og språk, er Codex eksperten som støtter deg i alt som handler om
+                programmering.
+            </p>
+        </section>
+
+        <section>
+            <h2>Hva kan Codex gjøre?</h2>
+            <ul>
+                <li>🔍 Finne og rette bugs i HTML, CSS og JavaScript</li>
+                <li>🧠 Forklare hvordan kode fungerer</li>
+                <li>🏗️ Lage komplette funksjoner eller moduler</li>
+                <li>⚙️ Bygge API-integrasjoner og automatiseringer</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Eksempler på bruk</h2>
+
+            <p class="example-title">Eksempel 1: En enkel knapp med teller i JavaScript</p>
+            <div class="prompt-box">Prompt til Codex: Lag en knapp i HTML og JavaScript som øker en teller hver gang man
+                klikker på den</div>
+            <p>Denne koden viser hvordan du kan lage en knapp som øker en teller hver gang du klikker på den. Et typisk
+                eksempel der Codex kan hjelpe deg raskt i gang med interaktiv JavaScript.</p>
+
+            <pre><code class="language-html">&lt;button id="btn"&gt;Klikk meg&lt;/button&gt;
+&lt;p id="output"&gt;Klikk: 0&lt;/p&gt;</code></pre>
+
+            <pre><code class="language-javascript">let count = 0;
+document.getElementById("btn").addEventListener("click", () => {
+  count++;
+  document.getElementById("output").textContent = "Klikk: " + count;
+});</code></pre>
+
+            <p class="example-title">Eksempel 2: Kalkulere moms i Python</p>
+            <div class="prompt-box">Prompt til Codex: Lag en Python-funksjon som regner ut pris inkludert moms</div>
+            <p>Her ser du hvordan Codex kan hjelpe deg med en nyttig funksjon for å beregne moms. Du kan enkelt angi
+                beløp og momssats, og få riktig resultat tilbake.</p>
+
+            <pre><code class="language-python">def legg_til_moms(beløp, sats=25):
+    return beløp * (1 + sats / 100)
+
+# Brukseksempel:
+print(legg_til_moms(100))  # Gir 125.0</code></pre>
+        </section>
+
+        <section>
+            <h2>Forskjellen mellom Codex og ChatGPT</h2>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Funksjon</th>
+                        <th>ChatGPT</th>
+                        <th>Codex</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Generell samtale</td>
+                        <td>✅</td>
+                        <td>🚫</td>
+                    </tr>
+                    <tr>
+                        <td>Tekstforståelse</td>
+                        <td>✅</td>
+                        <td>🔸</td>
+                    </tr>
+                    <tr>
+                        <td>Kodeforståelse</td>
+                        <td>🔸</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <td>Kodegenerering</td>
+                        <td>🔸</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <td>Beste bruksområde</td>
+                        <td>Tekst og forklaring</td>
+                        <td>Kode og utvikling</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Hvordan brukes Codex?</h2>
+            <p>
+                Når du bruker ChatGPT og skriver kode, aktiveres Codex automatisk i bakgrunnen – du trenger ikke å gjøre
+                noe selv.
+                Bruker du GitHub Copilot i Visual Studio Code, er det Codex som gir deg kodeforslagene i sanntid.
+            </p>
+        </section>
+
+        <section>
+            <h2>🧰 Slik kan du bruke Codex i egne prosjekter</h2>
+            <p>Codex er ikke bare et verktøy for eksperter – det er en personlig kodepartner for alle som ønsker å
+                bygge, lære eller forstå teknologi bedre.</p>
+            <ul>
+                <li><strong>Studenter:</strong> Få hjelp til å forstå kode og løse oppgaver raskere</li>
+                <li><strong>Utviklere:</strong> Bygg moduler, refaktorer eller generer boilerplate-kode på sekunder</li>
+                <li><strong>Gründere:</strong> Lag fungerende prototyper uten å være utvikler</li>
+                <li><strong>Lærere:</strong> Lag små, forklarende kodeeksempler til undervisning</li>
+            </ul>
+            <p>Du kan bruke Codex i ChatGPT ved å formulere enkle spørsmål som:</p>
+            <ul>
+                <li>"Hva gjør denne koden egentlig?"</li>
+                <li>"Lag et kontakt­skjema i HTML og JS"</li>
+                <li>"Finn feilen i denne CSS-koden"</li>
+                <li>"Hvordan sender jeg en POST-request i JavaScript?"</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <p>Del av AI-verktøykassen på <a href="/">Cre8XF.dev</a></p>
+    </footer>
+</body>
+
+</html>
