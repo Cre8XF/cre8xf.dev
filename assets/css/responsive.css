@@ -1,4 +1,6 @@
-/* === Ryddet responsive.css === */
+/* === Ryddet responsive.css strukturert etter breakpoint === */
+
+/* --- max-width: 768px --- */
 
 @media (max-width: 768px) {
   body {
@@ -82,6 +84,7 @@
   }
 }
 
+/* --- max-width: 600px --- */
 
 @media (max-width: 600px) {
   .start-btn {
@@ -99,6 +102,8 @@
     margin-top: 2rem;
   }
 }
+
+/* --- min-width: 768px --- */
 
 @media (min-width: 768px) {
   .btn-row {

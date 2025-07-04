@@ -1,3 +1,5 @@
+/* === Ryddet style.css uten Codex-stil === */
+
 :root {
   /* Bakgrunner */
   --bg-color: #121212;
@@ -32,6 +34,7 @@
   box-sizing: border-box;
 }
 /* =============== BASE =============== */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(to bottom, var(--bg-color) 0%, var(--box-bg) 100%);
@@ -45,10 +48,12 @@ body {
 /* =============== HEADER =============== */
 
 /* ===== LAYOUT OG SEKSJONER ===== */
+
 header {
   text-align: center;
   margin-bottom: 2rem;
 }
+
 .hero {
   text-align: center;
   background: linear-gradient(to bottom, var(--box-bg), var(--bg-color));
@@ -58,32 +63,38 @@ header {
   justify-content: center;
   padding-bottom: 2rem;
 }
+
 .hero-content {
   max-width: 800px;
   margin: 0 auto;
 }
 
 /* ===== KOMPONENTER OG BOKSER ===== */
+
 .logo {
   max-width: 140px;
   margin-top: 1.5rem; /* ✅ Flytter logoen litt ned */
   filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.25));
 }
+
 header h1 {
   font-size: 2.5rem;
   color: var(--accent);
   letter-spacing: 2px;
 }
+
 header h2 {
   font-size: 1.3rem;
   color: var(--accent-light);
   font-weight: 400;
 }
+
 header p {
   font-style: italic;
   margin-top: 0.5rem;
   color: var(--subtle-text);
 }
+
 .intro-text {
   font-size: 1.05rem;
   max-width: 700px;
@@ -100,6 +111,7 @@ section {
   margin: 0 auto 2.5rem auto;
   padding: 1rem 1.5rem;
 }
+
 section h3 {
   margin-bottom: 1rem;
   border-bottom: 2px solid var(--accent);
@@ -110,13 +122,16 @@ section p,
 section ul {
   margin-left: 1rem;
 }
+
 ul {
   list-style-type: square;
   padding-left: 1.2rem;
 }
+
 ul li {
   margin-bottom: 0.5rem;
 }
+
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -124,6 +139,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 .info-box {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
@@ -132,6 +148,7 @@ a:hover {
   transition: transform 0.3s ease;
 }
 /* =============== SUPPORT / DONASJON =============== */
+
 .support-section {
   text-align: center;
   margin: 4em auto;
@@ -141,6 +158,7 @@ a:hover {
   max-width: 900px;
   color: var(--accent);
 }
+
 .support-options {
   display: flex;
   flex-wrap: wrap;
@@ -148,6 +166,7 @@ a:hover {
   gap: 2em;
   margin-top: 2em;
 }
+
 .support-box {
   background: linear-gradient(to bottom, var(--box-bg), var(--box-bg-light));
   border-radius: 10px;
@@ -155,6 +174,7 @@ a:hover {
   width: 240px;
   text-align: center;
 }
+
 .qr-image {
   display: block;
   margin: 1rem auto;
@@ -162,10 +182,12 @@ a:hover {
   width: 100%;
   max-width: 150px;
 }
+
 .support-box h3 {
   margin-bottom: 0.5rem;
   color: var(--text-color);
 }
+
 .support-box .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -177,6 +199,7 @@ a:hover {
   text-decoration: none;
 }
 /* =============== KURS-KORT OG BILDER =============== */
+
 .course-cards {
   display: flex;
   flex-wrap: wrap;
@@ -184,6 +207,7 @@ a:hover {
   justify-content: center;
   margin-top: 2rem;
 }
+
 .course-card {
   background-color: var(--box-bg);
   border: 1px solid rgba(255, 255, 255, 0.05);
@@ -199,15 +223,18 @@ a:hover {
   transform: translateY(-5px);
   box-shadow: 0 0 25px rgba(255, 215, 0, 0.15);
 }
+
 .course-card h3 {
   color: var(--accent);
   margin-top: 1rem;
 }
+
 .course-card p {
   font-size: 0.95rem;
   color: var(--subtle-text);
   margin: 0.5rem 0 1rem;
 }
+
 .course-card .btn {
   display: inline-block;
   padding: 0.6rem 1.2rem;
@@ -217,12 +244,14 @@ a:hover {
   border-radius: 5px;
   text-decoration: none;
 }
+
 .course-image {
   width: 100%;
   height: auto;
   max-height: 160px;
   object-fit: contain;
 }
+
 .course-banner {
   width: 100%;
   max-width: 600px;
@@ -232,6 +261,7 @@ a:hover {
   border-radius: 10px;
   object-fit: contain;
 }
+
 .hero-img {
   object-fit: fill;
   width: 100%;
@@ -240,11 +270,13 @@ a:hover {
   max-height: 300px; /* Maks høyde for bildet */
   border-radius: 10px;
 }
+
 .hero-text {
   max-width: 500px;
   color: var(--accent);
 }
 /* Flex-oppsett for hero med bilde og tekst */
+
 .hero-flex {
   display: flex;
   align-items: center;
@@ -252,24 +284,29 @@ a:hover {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .hero-text h1 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
+
 .hero-text p {
   font-size: 1rem;
   line-height: 1.5;
 }
+
 .kursliste {
   list-style: none;
   padding-left: 0;
 }
+
 .kursliste li {
   margin-bottom: 1.2em;
   font-size: 1.1rem;
   line-height: 1.5;
 }
 /* Spesielt for knappen */
+
 .start-btn {
   display: block;
   background-color: var(--accent);
@@ -288,6 +325,7 @@ a:hover {
   background-color: var(--btn-blue);
 }
 /* =============== KONTAKT / FOOTER =============== */
+
 .contact-section {
   text-align: center;
   padding: 3em 1em;
@@ -295,18 +333,22 @@ a:hover {
   color: var(--text-color);
   margin-top: 4em;
 }
+
 .contact-section a {
   color: var(--accent);
   text-decoration: underline;
 }
+
 .centered {
   text-align: center;
   margin: 0 auto;
 }
+
 .back-wrapper {
   text-align: center;
   margin-top: 3rem;
 }
+
 .btn-back {
   padding: 0.8rem 1.5rem;
   background: var(--accent);
@@ -315,17 +357,20 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
 }
+
 .footer {
   margin-top: 2rem;
   text-align: center;
   font-size: 0.95rem;
   color: var(--text-color);
 }
+
 .footer a {
   color: var(--text-color);
   text-decoration: underline;
 }
 /* =============== TEASER OG NEDLASTNING =============== */
+
 .teaser-wrapper {
   margin-top: 1.5rem;
   padding: 1rem;
@@ -333,6 +378,7 @@ a:hover {
   border-left: 4px solid var(--accent);
   border-radius: 8px;
 }
+
 .btn-download {
   display: inline-block;
   margin-top: 0.5rem;
@@ -348,6 +394,7 @@ a:hover {
   background-color: var(--accent-light);
 }
 /* === Info- og pristekster === */
+
 .note {
   margin-top: 0.5rem;
   font-size: 0.9rem;
@@ -359,6 +406,7 @@ a:hover {
 }
 
 /* === Pristabell === */
+
 .pricing-table {
   width: 100%;
   text-align: left;
@@ -383,6 +431,7 @@ a:hover {
 }
 
 /* Eksempelseksjon – galleri */
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -390,6 +439,7 @@ a:hover {
   gap: 1.2rem;
   margin-top: 1rem;
 }
+
 .example {
   background-color: var(--box-bg, #1f2937); /* mørk blågrå */
   color: var(--text-color);
@@ -412,11 +462,13 @@ a:hover {
 .example img:hover {
   transform: scale(1.01);
 }
+
 .example p {
   font-size: 0.85rem;
   line-height: 1.4;
   margin: 0;
 }
+
 .example-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -425,10 +477,12 @@ a:hover {
   margin-top: 2rem;
 }
 /* =============== EKSEMPLER OG GALLERI =============== */
+
 .site-examples {
   text-align: center;
   margin-top: 3rem;
 }
+
 .template-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -479,10 +533,12 @@ a:hover {
 }
 
 /* Oppdeling for startvalg */
+
 .split-start {
   text-align: center;
   padding: 2rem 1rem;
 }
+
 .choose-path {
   display: flex;
   gap: 2rem;
@@ -496,6 +552,7 @@ a:hover {
   background: linear-gradient(to bottom right, var(--box-bg), var(--box-bg-light));
   color: var(--text-color);
 }
+
 .option-box.ai {
   background: linear-gradient(to bottom right, var(--box-bg), var(--box-bg-light));
   color: var(--text-color);
@@ -506,6 +563,7 @@ a:hover {
 }
 
 /* Knapper */
+
 .option-box .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -517,10 +575,12 @@ a:hover {
   transition: transform 0.2s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
+
 .option-box.nettside .btn {
   background: var(--btn-blue);
   color: var(--text-color);
 }
+
 .option-box.ai .btn {
   background: var(--btn-pink);
   color: var(--text-color);
@@ -533,6 +593,7 @@ h1,
 h2 {
   color: var(--accent);
 }
+
 .section {
   background: linear-gradient(to bottom, var(--box-bg), var(--box-bg-light));
   border: 1px solid rgba(255, 255, 255, 0.05);
@@ -550,15 +611,18 @@ li {
   margin-bottom: 1rem;
   line-height: 1.6;
 }
+
 p {
   text-align: center;
 }
+
 .download-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
   margin-bottom: 2em;
 }
+
 .download-btn {
   display: block;
   background-color: var(--accent);
@@ -572,6 +636,7 @@ p {
 .download-btn:hover {
   background-color: var(--btn-blue);
 }
+
 .option-box {
   flex: 1 1 300px;
   max-width: 500px;
@@ -587,13 +652,16 @@ p {
   text-align: left;
   font-size: 1.05rem;
 }
+
 .option-box h3 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
+
 .option-box p {
   line-height: 1.6;
 }
+
 .btn {
   display: inline-block;
   margin-top: 1.5rem;
@@ -609,10 +677,12 @@ p {
 .btn:hover {
   transform: translateY(-2px);
 }
+
 .btn-blue {
   background: var(--btn-blue);
   color: var(--text-color);
 }
+
 .btn-pink {
   background: var(--btn-pink);
   color: var(--text-color);
@@ -667,93 +737,9 @@ p {
 }
 
 /* === Knapper === */
+
 .btn {
   color: #fff;
 }
 /* For seksjonen med eksempler */
 /* === Codex-eksempler – stil og struktur === */
-
-.content-container section {
-  margin-bottom: 3rem;
-}
-
-/* Tittel for hvert kodeeksempel */
-.example-title {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  color: #ffce00;
-}
-
-/* Prompt-boks */
-.prompt-box {
-  background-color: #1f1f1f;
-  color: #f0f0f0;
-  font-family: monospace;
-  font-size: 0.95rem;
-  padding: 0.75rem 1rem;
-  border-left: 4px solid #ffce00;
-  margin: 0.75rem 0 1.25rem 0;
-  white-space: pre-wrap;
-  word-break: break-word;
-  border-radius: 4px;
-}
-
-/* Kodeblokker */
-pre code {
-  background-color: #0f0f0f;
-  display: block;
-  padding: 1rem;
-  border-radius: 6px;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  overflow-x: auto;
-  margin-bottom: 1.5rem;
-  color: #f8f8f8;
-}
-
-/* Sammenligningstabell */
-.comparison-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-
-.comparison-table th,
-.comparison-table td {
-  padding: 0.6rem 1rem;
-  border-bottom: 1px solid #444;
-  text-align: left;
-}
-
-.comparison-table th {
-  background-color: #222;
-  color: #fff;
-}
-
-.comparison-table td:first-child {
-  font-weight: 500;
-}
-
-.comparison-table td:nth-child(2),
-.comparison-table td:nth-child(3) {
-  text-align: center;
-}
-
-/* Responsivt tilpasset */
-@media (max-width: 600px) {
-  .prompt-box {
-    font-size: 0.9rem;
-    padding: 0.6rem 0.9rem;
-  }
-
-  pre code {
-    font-size: 0.85rem;
-  }
-
-  .comparison-table th,
-  .comparison-table td {
-    font-size: 0.9rem;
-  }
-}
