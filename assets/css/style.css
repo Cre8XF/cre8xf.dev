@@ -492,30 +492,6 @@ a:hover {
   align-items: stretch; /* 🆕 dette gjør at .option-box blir like høye */
 }
 
-.option-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 1 1 300px; /* 👈 gjør boksene fleksible og like brede */
-  max-width: 400px; /* begrenset bredde */
-  min-height: 360px; /* eller det som passer visuelt */
-  padding: 2rem;
-  border-radius: 1rem;
-  background: linear-gradient(to bottom right, var(--box-bg), var(--box-bg-light));
-  color: var(--text-color);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.option-box h3 {
-  margin-top: 0;
-  font-size: 1.2rem;
-}
-.option-box p {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-/* Matrix-farger */
 .option-box.nettside {
   background: linear-gradient(to bottom right, var(--box-bg), var(--box-bg-light));
   color: var(--text-color);
@@ -695,67 +671,6 @@ p {
   color: #fff;
 }
 /* For seksjonen med eksempler */
-.content-container section {
-  margin-bottom: 3rem;
-}
-
-/* Promptekster */
-.prompt-box {
-  background-color: #1f1f1f;
-  color: #f0f0f0;
-  font-family: monospace;
-  font-size: 0.95rem;
-  padding: 0.75rem 1rem;
-  border-left: 4px solid #ffce00;
-  margin: 1rem 0;
-  white-space: pre-wrap;
-}
-
-/* Kodeblokker */
-pre code {
-  background-color: #0f0f0f;
-  display: block;
-  padding: 1rem;
-  border-radius: 6px;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  overflow-x: auto;
-}
-
-/* Tittelstil inni eksemplene */
-.example-title {
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-  font-size: 1.1rem;
-}
-
-/* Sammenligningstabell */
-.comparison-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-
-.comparison-table th,
-.comparison-table td {
-  padding: 0.6rem 1rem;
-  border-bottom: 1px solid #444;
-  text-align: left;
-}
-
-.comparison-table th {
-  background-color: #222;
-  color: #fff;
-}
-
-.comparison-table td:first-child {
-  font-weight: 500;
-}
-
-.comparison-table td:nth-child(2),
-.comparison-table td:nth-child(3) {
-  text-align: center;
-}
 /* === Codex-eksempler – stil og struktur === */
 
 .content-container section {
