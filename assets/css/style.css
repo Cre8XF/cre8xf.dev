@@ -741,5 +741,41 @@ p {
 .btn {
   color: #fff;
 }
-/* For seksjonen med eksempler */
-/* === Codex-eksempler – stil og struktur === */
+
+/* === AI-Bildeguide spesifikt === */
+
+.tool-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.tool-table th,
+.tool-table td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.6rem;
+  text-align: left;
+}
+
+.tool-table th {
+  background-color: var(--box-bg-light);
+  color: var(--accent);
+}
+
+.tool-table tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+code {
+  display: block;
+  background-color: var(--box-bg-light);
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  margin: 1rem 0;
+  color: var(--accent-light);
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
