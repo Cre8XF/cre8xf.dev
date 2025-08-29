@@ -1,0 +1,112 @@
+[
+  {
+    "name": "ChatGPT",
+    "url": "https://chatgpt.com",
+    "category": "Tekst / Assistent",
+    "description": "Svarer på spørsmål, lager tekst, kode, og gir innsikt.",
+    "freeFeatures": ["Skrive tekster", "Tilgang til GPT-3.5"],
+    "paidFeatures": ["Tilgang til GPT-4o", "Analyserer dokumenter og bilder"],
+    "reviews": ["Veldig nyttig i arbeidshverdagen!", "Super for idéutvikling."],
+    "pricing": "betalt"
+  },
+  {
+    "name": "MidJourney",
+    "url": "https://midjourney.com",
+    "category": "Bildegenerering",
+    "description": "Lager AI-generert kunst via Discord.",
+    "freeFeatures": [],
+    "paidFeatures": ["Full tilgang via Discord kommandoer"],
+    "reviews": ["Utrolig visuelle resultater!", "Kunne vært enklere for nybegynnere."],
+    "pricing": "betalt"
+  },
+  {
+    "name": "DALL-E",
+    "url": "https://openai.com/dall-e",
+    "category": "Bildegenerering",
+    "description": "Genererer bilder fra tekstbeskrivelser.",
+    "freeFeatures": ["Genererer bilder", "Enkel å bruke"],
+    "paidFeatures": ["Høyere oppløsning", "Flere genereringer per måned"],
+    "reviews": ["Fantastisk for kreative prosjekter!", "Kvaliteten er imponerende."],
+    "pricing": "betalt"
+  },
+  {
+    "name": "Copy.ai",
+    "url": "https://www.copy.ai",
+    "category": "Tekst / Assistent",
+    "description": "Hjelper med å skrive markedsføringsinnhold, blogginnlegg og mer.",
+    "freeFeatures": ["Genererer tekstforslag", "Enkel å bruke"],
+    "paidFeatures": ["Flere maler", "Høyere kvalitet på generert innhold"],
+    "reviews": ["Veldig nyttig for innholdsproduksjon!", "Sparer mye tid."],
+    "pricing": "betalt"
+  },
+  {
+    "name": "Runway ML",
+    "url": "https://runwayml.com",
+    "category": "Video / Bilde",
+    "description": "Verktøy for videoredigering og bildebehandling med AI.",
+    "freeFeatures": ["Enkel videoredigering", "Bildeforbedring"],
+    "paidFeatures": ["Avanserte redigeringsverktøy", "Flere effekter"],
+    "reviews": ["Perfekt for kreative prosjekter!", "Brukervennlig grensesnitt."],
+    "pricing": "betalt"
+  },
+  {
+    "name": "Jasper",
+    "url": "https://www.jasper.ai",
+    "category": "Tekst / Assistent",
+    "description": "AI-drevet skriveassistent for markedsføring og innholdsskaping.",
+    "freeFeatures": ["Genererer tekstforslag", "Enkel å bruke"],
+    "paidFeatures": ["Flere maler", "Høyere kvalitet på generert innhold"],
+    "reviews": ["Veldig nyttig for innholdsproduksjon!", "Sparer mye tid."],
+    "pricing": "betalt"
+  },
+  {
+    "name": "Synthesia",
+    "url": "https://www.synthesia.io",
+    "category": "Video / Bilde",
+    "description": "Lager AI-genererte videoer med virtuelle presentatører.",
+    "freeFeatures": ["Enkel videoproduksjon", "Flere språk"],
+    "paidFeatures": ["Høyere kvalitet", "Flere tilpasningsmuligheter"],
+    "reviews": ["Imponerende teknologi!", "Perfekt for opplæringsvideoer."],
+    "pricing": "betalt"
+  },
+  {
+    "name": "DeepL",
+    "url": "https://www.deepl.com",
+    "category": "Tekst / Assistent",
+    "description": "AI-drevet oversettelsestjeneste med høy kvalitet.",
+    "freeFeatures": ["Grunnleggende oversettelser", "Flere språk"],
+    "paidFeatures": ["Høyere kvalitet", "Flere tilpasningsmuligheter"],
+    "reviews": ["Imponerende nøyaktighet!", "Perfekt for profesjonell bruk."],
+    "pricing": "betalt"
+  },
+    {
+    "name": "Runway ML",
+    "url": "https://runwayml.com",
+    "category": "Video / Bilde",
+    "description": "Verktøy for videoredigering og bildebehandling med AI.",
+    "freeFeatures": ["Enkel videoredigering", "Bildeforbedring"],
+    "paidFeatures": ["Avanserte redigeringsverktøy", "Flere effekter"],
+    "reviews": ["Perfekt for kreative prosjekter!", "Brukervennlig grensesnitt."],
+    "pricing": "betalt"
+  },
+  {
+    "name": "Leonardo AI",
+    "url": "https://leonardo.ai",
+    "category": "Bildegenerering",
+    "description": "AI-plattform for generering av detaljerte bilder med høy kontroll.",
+    "freeFeatures": ["Daglige kreditter", "Rask generering"],
+    "paidFeatures": ["Flere genereringer", "Prioritert kø og oppløsning"],
+    "reviews": ["Utrolig bra kvalitet!", "Bedre kontroll enn MidJourney."],
+    "pricing": "betalt"
+  },
+  {
+    "name": "ElevenLabs",
+    "url": "https://www.elevenlabs.io",
+    "category": "Lyd / Tale",
+    "description": "Hyperrealistisk AI-stemme for voiceover og dubbing.",
+    "freeFeatures": ["Lage prøver med tekst-til-tale"],
+    "paidFeatures": ["Flere stemmer og karakterer", "Høyere oppløsning"],
+    "reviews": ["Utrolig ekte stemmer!", "Super til voiceover."],
+    "pricing": "betalt"
+  }
+]

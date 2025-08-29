@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-Verktøykassa</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>🧠 AI-Verktøykassa</h1>
+        <input type="text" id="searchInput" placeholder="🔍 Søk etter verktøy..." />
+    </header>
+
+    <main>
+        <section id="filters">
+            <label for="categoryFilter" class="visually-hidden">Kategorifilter</label>
+            <select id="categoryFilter" title="Kategorifilter">
+                <option value="">Alle kategorier</option>
+            </select>
+            <label for="pricingFilter" class="visually-hidden">Prisfilter</label>
+            <select id="pricingFilter" title="Prisfilter">
+                <option value="">Gratis/Basert</option>
+                <option value="gratis">Gratis</option>
+                <option value="betalt">Betalt</option>
+            </select>
+        </section>
+
+        <section id="toolList"></section>
+
+        <section id="compareSection" class="hidden">
+            <h2>🔁 Sammenlign AI-verktøy</h2>
+            <div id="compareView"></div>
+        </section>
+
+        <section id="newsSection">
+            <h2>📰 AI-Nyheter & Trender</h2>
+            <ul id="newsFeed">
+                <li>Laster inn nyheter...</li>
+            </ul>
+        </section>
+    </main>
+
+    <template id="toolCard">
+        <div class="tool-card">
+            <h3><a href="" target="_blank"></a></h3>
+            <p class="description"></p>
+            <p><strong>Gratis:</strong> <span class="free"></span></p>
+            <p><strong>Betalt:</strong> <span class="paid"></span></p>
+            <button class="compareBtn">🔁 Sammenlign</button>
+            <div class="reviews">
+                <h4>Brukeromtaler</h4>
+                <ul class="reviewList"></ul>
+            </div>
+        </div>
+    </template>
+
+    <script src="tools.js"></script>
+</body>
+
+</html>

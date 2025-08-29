@@ -1,0 +1,134 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #4b6cb7;
+  background: linear-gradient(to right, #182848, #4b6cb7);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+#searchInput {
+  padding: 0.6rem;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+#filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+#filters select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+#toolList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.tool-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease;
+}
+
+.tool-card:hover {
+  transform: scale(1.03);
+}
+
+.tool-card h3 a {
+  color: #4b6cb7;
+  text-decoration: none;
+}
+
+.tool-card p {
+  margin: 0.3rem 0;
+}
+
+.compareBtn {
+  margin-top: 0.8rem;
+  background: #4b6cb7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.compareBtn:hover {
+  background: #354c9c;
+}
+
+#compareSection {
+  padding: 2rem;
+  background: #eef1f7;
+  margin-top: 2rem;
+}
+
+#compareView {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.compare-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 280px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#newsSection {
+  padding: 2rem;
+  background: #f0f2f8;
+}
+
+#newsSection h2 {
+  text-align: center;
+}
+
+#newsFeed li {
+  margin: 0.5rem 0;
+}
+
+.reviewList {
+  padding-left: 1rem;
+  list-style: circle;
+}
+
+.hidden {
+  display: none;
+}
